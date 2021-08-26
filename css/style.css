@@ -270,6 +270,10 @@ color:#cfcfcf
     font-size: 1rem;
   }
 
+  .masthead{
+    margin-top:72px
+  }
+
   .page-section, 
   .page-section > container > div {
     margin:0.2rem 0.2rem !important;
@@ -322,3 +326,16 @@ color:#cfcfcf
   
 }
 
+@media only screen and (max-width: 500px) {
+    #vap-title{
+    display:block;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    #vap-title{
+    display:block;
+    font-size: 0.6rem;
+  }
+}
