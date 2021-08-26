@@ -3,6 +3,7 @@ header.masthead {
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%);
   background-repeat: no-repeat;
   background-size: cover;
+  /* min-height: 100px; */
 }
 
 header.masthead h1, header.masthead .h1 {
@@ -271,7 +272,8 @@ color:#cfcfcf
   }
 
   .masthead{
-    margin-top:72px
+    margin-top:72px;
+    min-height: 20rem !important;
   }
 
   .page-section, 
@@ -331,11 +333,18 @@ color:#cfcfcf
     display:block;
     font-size: 0.8rem;
   }
+
+  .masthead{
+    min-height: 10rem !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
     #vap-title{
     display:block;
     font-size: 0.6rem;
+  }
+  .masthead{
+    min-height: 8rem !important;
   }
 }
