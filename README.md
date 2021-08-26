@@ -1,1 +1,0 @@
-# victoriaashmanphotography.github.io
