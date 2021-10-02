@@ -1,0 +1,30 @@
+{{ $featured_image := .Page.Params.featured_image }}
+<article>
+  <div class="row">
+    <div class="col-md">
+        <a href="{{.RelPermalink}}" >
+          <img src="{{ $featured_image }}" class="w-100" alt="image from {{ .Title }}">
+        </a>
+    </div>
+    <div class="col-md">
+      <h3>
+        <a href="{{.RelPermalink}}">
+          {{ .Title }}
+          </a>
+        </h3>
+        <div class=>
+        <p>
+          <small>
+            {{- partial "post-metadata.html" . -}}
+          </small>
+        </p>
+
+          <p>
+            {{ .Summary }}
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <a href="{{.RelPermalink}}" type="button" class="btn btn-outline-secondary me-md-2">Read More</a>
+          </div>
+    </div>
+  </div>
+</article>

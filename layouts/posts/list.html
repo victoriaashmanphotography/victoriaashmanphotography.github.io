@@ -1,0 +1,41 @@
+{{ define "main" }}
+  
+    {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
+    {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+    {{/* Create a variable with that section to use in multiple places. */}}
+    {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+    {{ $posts := where $section "Type" "posts"}}
+    {{/* Check to see if the section is defined for ranging through it */}}
+    {{ $section_count := len $section }}
+    {{ if ge $section_count 1 }}
+      {{/* Derive the section name  */}}
+      {{ $section_name := index (.Site.Params.mainSections) 0 }}
+  
+    <section class="page-section bg-light-grey" >
+      
+      <div class="container px-4 px-lg-5">
+        <h1>{{ .Title }}</h1>
+              <p>
+                <small>
+                  {{$tagCount := len .Params.tags}}
+                    {{ if gt $tagCount 0 }}
+                    <i class="bi bi-tags"></i>
+                    {{ range .Params.tags }}
+                      {{- . -}} ,
+                    {{ end }}
+                  {{ end }}
+                </small>
+              </p>
+              <p>{{ .Page.Content }} </p>
+       
+          {{ range $posts }}
+            <div class="relative w-100 m-5 p-4 bg-white border-light-grey">
+              {{ partial "summary-with-image.html" . }}
+            </div>
+          {{ end }}
+
+        </div>
+        <section>
+    {{ end }}
+
+{{ end }}

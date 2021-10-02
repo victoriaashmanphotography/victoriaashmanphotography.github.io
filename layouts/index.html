@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+  <section class="page-section" id="about">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 text-center">
+              {{ .Page.Content }}
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="page-section" id="featured-posts">
+  <div class="container px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+            {{ partial "featured-posts.html" . }}
+      </div>
+  </div>
+
+</section>
+
+  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+  {{ $posts := where $section "Type" "posts"}}
+  {{ $section_count := len $section }}
+
+  {{ if ge $section_count 1 }}
+    {{ $section_name := index (.Site.Params.mainSections) 0 }}
+
+    <section class="page-section bg-light-grey" >
+    
+    <div class="container px-4 px-lg-5">
+      <h1 class="flex-none mt-2 mb-0">Recent Posts</h1>
+     
+      {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+        {{/* Range through the first $n_posts items of the section */}}
+        {{ range (first $n_posts $posts) }}
+          <div class="relative w-100 my-5 p-4 bg-white border-light-grey">
+            {{ partial "summary-with-image.html" . }}
+          </div>
+        {{ end }}
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <a href="{{ .Site.Home.RelPermalink }}posts" type="button" class="btn btn-outline-primary">
+            View All Posts
+            <i class="bi bi-chat-square-quote-fill ms-1"></i>
+          </a>
+        </div>
+      </div>
+      <section>
+  {{ end }}
+
+{{ end }}
