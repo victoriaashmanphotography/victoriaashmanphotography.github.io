@@ -1,0 +1,24 @@
+{{ $featured_image := .Page.Params.featured_image }}
+{{ $featured_image := (trim $featured_image "/") | absURL }}
+{{ partial "site-navigation.html" . }}
+<header class="masthead d-flex align-items-end justify-content-center protected" style="background-image: url('{{ $featured_image }}')";>
+
+
+<section class="page-section mb-5" id="banner-content">
+    <div class="container h-100 ">
+      <strong>
+        <h1 class="text-primary-light text-shadow">{{ .Page.Params.banner_title }}</h1>
+      </strong>
+            
+       <p class="text-primary-light text-shadow">{{ .Page.Params.banner_para }}</p>
+       {{ if .Page.Params.banner_button_text }}
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <a href="{{ .Page.Params.banner_button_url }}" type="button" class="btn btn-outline-primary me-md-2">{{ .Page.Params.banner_button_text }}</a>
+        </div>
+        {{ end }}
+    </div>
+  
+  </section>
+</header>
+
+

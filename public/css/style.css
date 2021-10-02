@@ -1,0 +1,350 @@
+
+header.masthead {
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100px; */
+}
+
+header.masthead h1, header.masthead .h1 {
+    font-size: 3.5rem;
+}
+
+
+#vap-logo{
+  display:block;
+}
+
+#vap-title{
+  display:none;
+  text-transform: uppercase;
+}
+
+
+.brand-collapsed > #vap-logo{
+  display:none !important
+}
+
+
+.nav-item.active {
+  text-decoration: underline !important;
+  text-underline-offset: 5px;
+}
+
+
+.brand-collapsed > #vap-title{
+  display:block !important
+}
+
+.navbar-brand:hover{
+  color: #52ab98 !important;
+}
+
+#mainNav.nav-collapsed {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+#mainNav.nav-collapsed .navbar-nav .nav-item .nav-link {
+  color: #636464;
+}
+
+
+#mainNav.nav-collapsed .navbar-nav .nav-item .nav-link:hover {
+  color: #52ab98;
+}
+
+#mainNav.nav-collapsed {
+  height: 3.5rem;
+}
+
+#mainNav.nav-uncollapsed {
+  background: rgb(34,34,34);
+  background: linear-gradient(180deg, rgba(34,34,34,0.5) 0%, rgba(34,34,34,0.5) 44%, rgba(255,255,255,0) 100%);
+  height: 172px
+}
+
+#mainNav.nav-uncollapsed .navbar-nav .nav-item:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+#mainNav{
+  transition: background-color 0.2s linear;
+  transition: height 0.2s linear;
+}
+
+#mainNav .navbar-brand, 
+#mainNav .navbar-nav .nav-item .nav-link, p, a{
+  font-family: Open Sans, Helvetica, Arial;
+  font-weight: 100;
+  color:#636464;
+}
+
+a:hover{
+  color:#52ab98
+}
+
+a {
+  text-decoration:none;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #f9fafb;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-weight: 100;
+}
+#mainNav .navbar-nav .nav-item{
+  border:#f9fafb00 solid 5px ;
+  border-width: 0;
+  border-bottom-width: 5px;
+}
+
+#mainNav .navbar-nav .nav-item:last-child .nav-link {
+  padding-right: 1rem;
+}
+
+#mainNav .navbar-nav .nav-item a:hover
+{
+  color: #f9fafb;
+}
+
+.text-primary-light{
+  color: #f9fafb !important;
+}
+
+.text-primary, h1, h2, h3, h4, h5{
+  color: #52ab98 !important;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+.bg-white{
+  background-color: #fcfcfc;
+}
+
+.bg-light-grey{
+  background-color: #f2f2f2;
+}
+
+.bg-light-blue{
+  background-color: #c8d8e4;
+}
+
+
+.bg-gark-grey{
+  background-color: #444;
+}
+
+.border-light-grey {
+  border: #e4e4e4 1px solid;
+}
+
+strong h1 {
+  font-weight: bold;
+}
+
+.text-shadow {
+  text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Home Page */
+
+.page-section {
+  padding: 1rem 4rem 1rem 4rem;
+}
+
+/* Featured Posts  */
+
+.featured {
+  text-align: center;
+}
+
+.featured-img {
+  height: 8rem !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featured > h3 {
+  font-size: large;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+}
+
+/* Blog Summary with Image */
+
+.vap-summary-img{
+  width:50%
+}
+
+.vap-summary-text{
+  width:50%;
+}
+
+.vap-summary-text > h1, 
+.vap-summary-text > h2,
+.vap-summary-text > h3 {
+  text-transform: uppercase;
+}
+
+.vap-summary-text a {
+  text-decoration: none;
+}
+
+/* footer */
+#footer {
+  /* -webkit-box-shadow: inset 0px 15px 18px -15px rgba(0,0,0,0.5); */
+  /* box-shadow: inset 0px 15px 18px -15px rgba(0,0,0,0.5); */
+}
+
+#footer a:hover {
+color:#cfcfcf
+}
+
+/* Buttons */
+.btn {
+  border-radius: 2rem;
+}
+
+.btn-outline-primary{
+  color: #fff;
+  background-color: #2b6777;
+  border-color: #2b6777;
+}
+
+.btn-outline-primary:hover{
+  color: #fff;
+  border-color: #52ab98;
+  background-color: #52ab98;
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.25);
+}
+
+.btn-outline-secondary{
+  color: #2b6777;
+  border-color: #2b6777;
+  background-color: white;
+}
+.btn-outline-secondary:hover{
+  color: #fff;
+  background-color: #2b6777;
+  border-color: #2b6777;
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.25);
+}
+
+/* Social Icons */
+.facebook:hover, .twitter:hover, .instagram:hover, .youtube:hover, .github:hover, .gitlab:hover, .keybase:hover, .linkedin:hover, .medium:hover, .mastodon:hover, .slack:hover, .stackoverflow:hover, .rss:hover {
+  fill: #52ab98;
+}
+
+
+
+@media (min-width: 992px){
+  header.masthead {
+      height: 75vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #vap-logo{
+    display:none;
+    
+  }
+  
+  #vap-title{
+    display:block;
+    font-size: 1rem;
+  }
+
+  .masthead{
+    margin-top:72px;
+    min-height: 20rem !important;
+  }
+
+  .page-section, 
+  .page-section > container > div {
+    margin:0.2rem 0.2rem !important;
+    padding:0.2rem 0.2rem !important;
+  }
+
+  #mainNav{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background: linear-gradient(180deg, rgba(34,34,34,0) 100%, rgba(34,34,34,0) 100%, rgba(255,255,255,0) 100%) !important;
+    background-color: #fff !important;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #212529 !important;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #52ab98 !important;
+  }
+  
+  #mainNav {
+    height: 72px !important;
+  }
+
+  .navbar-brand:hover{
+    color: #52ab98 !important;
+    text-decoration: none;
+  }
+  
+  #navbarResponsive{
+    background-color: #fff  !important;
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+    -webkit-box-shadow: 0px 5px 13px 1px rgba(0,0,0,0.36); 
+    box-shadow: 0px 5px 13px 1px rgba(0,0,0,0.36);
+    background: #1C6EA4;
+  }
+
+  #mainNav .nav-item{
+    border-bottom-width: 1px !important;
+    border-bottom-color: #6364642b !important;
+    border-bottom-style: solid !important;
+    padding: 0.3rem;
+  }
+
+  #nav-social{
+    padding: 0 0.3rem;
+  }
+  
+}
+
+@media only screen and (max-width: 500px) {
+    #vap-title{
+    display:block;
+    font-size: 0.8rem;
+  }
+
+  .masthead{
+    min-height: 10rem !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    #vap-title{
+    display:block;
+    font-size: 0.6rem;
+  }
+  .masthead{
+    min-height: 8rem !important;
+  }
+}

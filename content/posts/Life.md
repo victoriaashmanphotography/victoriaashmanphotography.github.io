@@ -1,0 +1,22 @@
+---
+date: 2020-08-11
+description: "Life after a kidney transplant"
+featured_image: "/images/croyde bay 2.jpg"
+tags: ["landscapes", "photography", "other stuff", "lifestyle"]
+title: "Life"
+disable_share: false
+---
+
+
+
+Just over two months ago, I had my transplant! It’s been both an amazing time, and at points very difficult – due to the horrible word rejection and a near hospital readmission. It has been beyond what I could have possibly imagined. It’s also been quite lonely. I’ve been shielding and so my normal support network (apart from Darren), have not been able to help me like they would have done. So I have had to achieve a lot on my own, this has – according to the transplant team put me further forward than a lot of recovering transplant patients, which is positive. But its also been hard. I’ve appreciated more than ever, my family and friends, checking in.
+
+There have been many wonderful moments – thinking I should be at dialysis and realising I don’t have to go. Having my first shower in 8 months and my first bath in 2 years. Knowing that all tubes and bits of plastic are out of my body. And most importantly, knowing that I made it. A week before the call, Darren and I had a painful conversation, we didn’t think my body could take much more. I’d had two bouts of peritonitis, one in November and one in January. I’d had covid in April and that was terrible, I narrowly avoided a hospital admission. So after covid, I was broken. But I did make it. I think my consultant may have also thought the same… when she came in to see me after the transplant she cried and then I cried.
+
+There have been lots of challenges too. I’m on 30 tablets a day at the moment. So many drugs to get used to and their associated side effects – and all at once. One of which is a tremor in my hands. I cannot even take a picture on a camera phone without it being very blurry (though I managed it today, I think I just got lucky). They tell me that eventually, my body should get used to the drugs, but it could take a few months. They also took me off all the medication I was on before transplant. They want to see what the kidney can do and what it cannot. One of those drugs was for nerve pain, the nerve pain came back almost instantly and it was awful. Fortunately, I’m back on the medication. But it’s taken a while to get the dose right and I’m only now seeing respite from the pain.
+
+In my first consultation after the operation, the doctor told me that these first three months would be harder than the previous three on dialysis. I did not believe him, as dialysis is so gruelling and I had covid. But now I’m living it I realise in some ways he was right. It takes a while to get the drugs right and the level of anxiety has been intense. In fact, I’ve never been this anxious before. But every time they mention the word ‘rejection’ the level of fear is palpable. This kidney is my life line, and a chance at a normal life. Although when it was said for the third time I handled it a bit better. Previous experience is helping – the new kidney keeps rallying.
+
+Despite all the challenges, I really am so incredibly grateful. I know that once I’ve got through these first 3 months and once the fear of rejection subsides (all being well), there will be no stopping me. Now and then I have a really good day. On these days I can see a glimmer of my new life, a truly wonderful one. I am not sure what this new life will hold for me. I may go on a different path career-wise. But we will have to see what happens with this tremor and how I am feeling in a few months. I also don’t think I can build everything back up again, it took me a long time to save the money to buy all the equipment and a lot of it now needs updating. Plus, I now have a suppressed immune system and always will, so I have to seriously think about working with young children. Covid has brought this even further to the fore. So I will consider everything and think long and hard.
+
+I appreciate all the clients that I have met along the way and some of you became friends. You have been there with me on this journey (I laugh as I write this as my Dad groans when he hears someone say they’ve been on a journey). But it truly has been. Your support has helped me through the darkest of days, now I hope there will be so much more light. Life will be full of possibility I just do not know where it might take me…
